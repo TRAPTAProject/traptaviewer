@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/TButton.qml</file>
+        <file>qml/ConfigPanel.qml</file>
+        <file>qml/HelpPanel.qml</file>
+        <file>qml/TTab.qml</file>
+        <file>qml/SettingPanel.qml</file>
+        <file>qml/TCheckbox.qml</file>
+        <file>images/minus-black.png</file>
+        <file>images/minus-white.png</file>
+        <file>images/plus-black.png</file>
+        <file>images/plus-white.png</file>
+        <file>images/tick.png</file>
+        <file>qml/AppView.qml</file>
+        <file>qml/MarqueePanel.qml</file>
+        <file>qml/AdvertPanel.qml</file>
+        <file>qml/FlickablePanel.qml</file>
+        <file>json/democontent.json</file>
+        <file>images/adbanner.png</file>
+        <file>qml/AdvertItem.qml</file>
+        <file>qml/CutItem.qml</file>
+        <file>qml/Marquee.qml</file>
+        <file>qml/MatchItem.qml</file>
+        <file>qml/MatchVolley.qml</file>
+        <file>qml/PositionItem.qml</file>
+        <file>qml/RankItem.qml</file>
+        <file>qml/ScrollingList.qml</file>
+        <file>qml/Subtitle.qml</file>
+        <file>qml/TeamItem.qml</file>
+        <file>qml/TitleItem.qml</file>
+        <file>images/arrowdown.png</file>
+        <file>images/arrowup.png</file>
+        <file>images/smiley1.png</file>
+        <file>images/smiley2.png</file>
+        <file>images/smiley-1.png</file>
+        <file>images/smiley-2.png</file>
+        <file>qml/Toaster.qml</file>
+        <file>qml/MessageBox.qml</file>
+        <file>qml/Header.qml</file>
+        <file>images/greenspot.png</file>
+        <file>images/redspot.png</file>
+        <file>images/singlespot.png</file>
+        <file>images/trispot.png</file>
+    </qresource>
+</RCC>

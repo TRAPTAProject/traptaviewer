@@ -1,0 +1,430 @@
+{
+    "dataType" : "ranking",
+    "heatIndex" : 1,
+    "volleyIndex" : -1,
+    "arrowCount" : 3,
+    "team": {
+        "Equipe catégorie 1": [
+            {
+                "rank": 1,
+                "name": "Club 1",
+                "score": 300
+            },
+            {
+                "rank": 2,
+                "name": "Club 2",
+                "score": 256
+
+            }
+
+        ],
+        "Equipe catégorie 2": [
+            {
+                "rank": 1,
+                "name": "Club 3",
+                "score": 300
+            },
+            {
+                "rank": 2,
+                "name": "Club 4",
+                "score": 300
+            },
+            {
+                "rank": 3,
+                "name": "Club 5",
+                "score": 300
+            }
+
+        ]
+    },
+
+    "ranking": [
+        {
+            "categName": "Forêt des rêves bleus",
+            "runningCateg": true,
+            "cut": 0,
+            "archerList": [
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Winnie l'Ourson",
+                        "club": "Foret reves bleus",
+                        "position": "1A",
+                        "volleyScore": 28,
+                        "trend": 2,
+                        "shift": 1,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "2",
+                    "currentRun": false,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Tigrou",
+                        "club": "Foret reves bleus",
+                        "position": "1B",
+                        "volleyScore": 28,
+                        "trend": 1,
+                        "shift": -3,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "--",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Coco Lapin",
+                        "club": "Foret reves bleus",
+                        "position": "1C",
+                        "volleyScore": 28,
+                        "trend": 0,
+                        "shift": 3,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "3",
+                    "currentRun": false,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Porcinet",
+                        "club": "Foret reves bleus",
+                        "position": "1D",
+                        "volleyScore": 28,
+                        "trend": -1,
+                        "shift": 4,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "4",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Bouriquet",
+                        "club": "Foret reves bleus",
+                        "position": "2A",
+                        "volleyScore": 28,
+                        "trend": -2,
+                        "shift": -6,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "5",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Grand Gourou",
+                        "club": "Foret reves bleus",
+                        "position": "2B",
+                        "volleyScore": 28,
+                        "trend": 2,
+                        "shift": -1,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "6",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Maitre Hibou",
+                        "club": "Foret reves bleus",
+                        "position": "2C",
+                        "volleyScore": 28,
+                        "trend": 1,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "7",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Petit Gourou",
+                        "club": "Foret reves bleus",
+                        "position": "2D",
+                        "volleyScore": 28,
+                        "trend": 0,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "8",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Coco Lapin",
+                        "club": "Foret reves bleus",
+                        "position": "3A",
+                        "volleyScore": 28,
+                        "trend": -1,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "22",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Christopher",
+                        "club": "Foret reves bleus",
+                        "position": "3B",
+                        "volleyScore": 28,
+                        "trend": -2,
+                        "shift": -2,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                }
+
+            ]
+        },
+        {
+            "categName": "Villains",
+            "runningCateg": true,
+            "cut": 0,
+            "archerList": [
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Gru",
+                        "club": "Despicable me",
+                        "position": "3C",
+                        "volleyScore": 28,
+                        "trend": 2,
+                        "shift": 2,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Scarlett Overkill",
+                        "club": "Despicable me",
+                        "position": "3D",
+                        "volleyScore": 28,
+                        "trend": 1,
+                        "shift": -2,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Vector",
+                        "club": "Despicable me",
+                        "position": "4A",
+                        "volleyScore": 28,
+                        "trend": 0,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "El Macho",
+                        "club": "Despicable me",
+                        "position": "4B",
+                        "volleyScore": 28,
+                        "trend": -1,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                }
+
+
+            ]
+        },
+        {
+            "categName": "Girls",
+            "runningCateg": true,
+            "cut": 0,
+            "archerList": [
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Margo",
+                        "club": "Despicable me",
+                        "position": "4C",
+                        "volleyScore": 28,
+                        "trend": -2,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Edith",
+                        "club": "Despicable me",
+                        "position": "4D",
+                        "volleyScore": 28,
+                        "trend": 2,
+                        "shift": 2,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Agnes",
+                        "club": "Despicable me",
+                        "position": "5A",
+                        "volleyScore": 28,
+                        "trend": 1,
+                        "shift": -2,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                }
+            ]
+        },
+        {
+            "categName": "Team Shrek",
+            "runningCateg": true,
+            "cut": 0,
+            "archerList": [
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Shrek",
+                        "club": "SKG",
+                        "position": "5B",
+                        "volleyScore": 28,
+                        "trend": 0,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Donkey",
+                        "club": "SKG",
+                        "position": "5C",
+                        "volleyScore": 28,
+                        "trend": -1,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Fiona",
+                        "club": "SKG",
+                        "position": "5D",
+                        "volleyScore": 28,
+                        "trend": 3,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Puss in Boots",
+                        "club": "SKG",
+                        "position": "6A",
+                        "volleyScore": 28,
+                        "trend": -2,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                },
+                {
+                    "rank": "1",
+                    "currentRun": true,
+                    "archer": {
+                        "id": "145689",
+                        "name": "Prince Charming",
+                        "club": "SKG",
+                        "position": "6B",
+                        "volleyScore": 28,
+                        "trend": 1,
+                        "shift": 0,
+                        "score0": 236,
+                        "score1": 56,
+                        "total": 384
+                    }
+                }
+            ]
+        }
+
+
+
+    ]
+
+}
