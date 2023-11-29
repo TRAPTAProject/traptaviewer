@@ -53,6 +53,7 @@ RowModel::RowModel(const RowModel &copy) {
 RowModel& RowModel::operator = (const RowModel& copy) {
     _rowType = copy.rowType();
     _params = copy.params();
+    return *this;
 }
 
 QHash<int, QVariant> RowModel::params() const {
