@@ -1,6 +1,7 @@
-import QtQuick 2.4
-import QtQuick.Window 2.2
-import QtQuick.Dialogs 1.0
+import QtQuick
+import QtQuick.Window
+import QtQuick.Dialogs
+import QtCore
 
 Window {
     id: rootWindow
@@ -16,7 +17,7 @@ Window {
     FileDialog {
         id: fileDialog
         title: "Sélectionnez un fichier"
-        folder: shortcuts.home
+        currentFolder: StandardPaths.standardLocations(StandardPaths.HomeLocation)[0]
 
         property string filename: ""
 
@@ -34,15 +35,18 @@ Window {
         Component.onCompleted: {
             width = rootWindow.width
             height = rootWindow.height
+            console.log("Home dir"+StandardPaths.standardLocations(StandardPaths.HomeLocation)[0])
         }
 
     }
 
-    onClosing: {
+    // @disable-check M16
+    onClosing: (close) => {
+        console.log("You want to close the main window !!!!!!!!!!!!")
         close.accepted = false
         controller.quit()
-
     }
+
 
 }
 

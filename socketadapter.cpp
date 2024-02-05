@@ -89,13 +89,6 @@ void SocketAdapter::read() {
     }
 }
 
-void SocketAdapter::close() {
-    qDebug() << "Closing SocketAdapter";
-    _closed = true;
-    _socket.close();
-    emit closed();
-
-}
 
 
 

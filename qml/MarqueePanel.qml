@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 
 FocusScope {
     id: marquee
@@ -53,7 +53,7 @@ FocusScope {
                     controller.setMarquee(textInput.text)
                 }
 
-                Keys.onPressed: {
+                Keys.onPressed: (event) => {
 
                     if (event.key === Qt.Key_Shift) {
                         event.accepted = true
