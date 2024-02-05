@@ -16,19 +16,19 @@
 #define SETTINGS_TREND "trendChecked"
 #define SETTINGS_CLUB "clubChecked"
 
-#define MARQUEE_DEFAULT "Retrouvez les résultats en direct sur internet à l'adresse: score.trapta.eu"
+#define MARQUEE_DEFAULT "Résultats TRAPTA"
 
 Controller::Controller(QObject *parent) : QObject(parent),
+    _fontRatio(90),
+    _busy(false),
+    _connected(false),
+    _speed(700),
+    _marquee(MARQUEE_DEFAULT),
+    _displayMarquee(true),
     _positionChecked(true),
     _progressChecked(true),
     _trendChecked(true),
-    _clubChecked(false),
-    _busy(false),
-    _connected(false),
-    _fontRatio(90),
-    _speed(700),
-    _marquee(MARQUEE_DEFAULT),
-    _displayMarquee(true)
+    _clubChecked(false)
 
 {
     QQmlEngine::setObjectOwnership(this, QQmlEngine::CppOwnership);

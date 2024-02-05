@@ -15,19 +15,16 @@ public:
 
     bool isConnected();
     QJsonDocument jsonDocument() const;
-    
+
 signals:
     void connected();
     void disconnected(QString error);
     void incomingJsonDocument(QJsonDocument jsonDoc);
-    void closed();
-    
+
 public slots:
     void connectToServer(const QString& host = QString(), int port = 0);
     void disconnectedFromServer();
     void read();
-    void close();
-
 
 private:
 

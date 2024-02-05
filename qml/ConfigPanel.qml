@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick
 
 FocusScope {
 
@@ -40,7 +40,7 @@ FocusScope {
         anchors.left: tabSelector.right
         anchors.top: parent.top
 
-        onSelectedIndex: tabSelector.currentIndex = index
+        onSelectedIndex: (index) => tabSelector.currentIndex = index
     }
 
     Rectangle {

@@ -1,5 +1,5 @@
-import QtQuick 2.4
-import QtQuick.Controls 1.4
+import QtQuick
+import QtQuick.Controls
 
 FocusScope {
 
@@ -51,7 +51,7 @@ FocusScope {
 
     Subtitle {
         id: subtitleHeader
-        visible: subtitleHeader.text!=""
+        visible: subtitleHeader.text!==""
         opacity: 0.8
         anchors.top: header.bottom
         width: parent.width
@@ -94,9 +94,7 @@ FocusScope {
 
             }
         }
-
     }
-
 
     ConfigPanel {
         id: configPanel
@@ -105,7 +103,6 @@ FocusScope {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         visible: false
-
     }
 
     Rectangle {
@@ -134,7 +131,7 @@ FocusScope {
 
     onScrollSpeedChanged: toaster.toast("Vitesse: "+Math.round(100000/scrollSpeed))
 
-    Keys.onPressed: {
+    Keys.onPressed: (event) => {
 
         if (escCheck.visible && event.key!==Qt.Key_Escape) {
             escCheck.visible = false
@@ -181,7 +178,7 @@ FocusScope {
 
             default:
 
-                if (configPanel.visible == true) {
+                if (configPanel.visible === true) {
                     configPanel.visible = false
                     configPanel.focus = false
                 }
@@ -190,7 +187,6 @@ FocusScope {
                     configPanel.focus = true
 
                 }
-
         }
 
         event.accepted = true

@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 
 FocusScope {
     id: setting
@@ -96,7 +96,7 @@ FocusScope {
                 anchors.bottom: parent.bottom
                 anchors.left: parent.left
                 anchors.right: chooseButton.left
-                source: listModel.advertFile==""?"qrc:/images/adbanner.png":listModel.advertFile
+                source: listModel.advertFile===""?"qrc:/images/adbanner.png":listModel.advertFile
             }
 
 
